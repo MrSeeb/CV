@@ -22,9 +22,9 @@ body{
 }
 /* FIN STRUCTURE CSS */
 
-/* NAV CSS */
+/* NAV BAR */
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,11 +32,11 @@ ul {
     background-color: #333333;
 }
 
-li {
+nav li {
     float: left;
 }
 
-li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -44,12 +44,23 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+nav li a:hover {
     background-color: #111111;
 }
 
-/* FIN NAV CSS */
+/* FIN NAV BAR */
 
+/* HEADER */
+.infos{
+    border: 5px double #000;
+    width: 30%;
+    text-align: justify;
+}
+.infos ul {
+    list-style-type: none;
+}
+
+/* FIN HEADER */
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
