@@ -51,15 +51,36 @@ nav li a:hover {
 /* FIN NAV BAR */
 
 /* HEADER */
+header{
+    background-color: #13c4a3;
+    width: 100%;
+    height: 240px;
+}
 .infos{
     border: 5px double #000;
     width: 30%;
     text-align: justify;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: white;
 }
 .infos ul {
     list-style-type: none;
 }
 
+.sociaux{
+    border: 5px double #000;
+    width: 30%;
+    text-align: justify;
+    float: right;
+    margin-right: 5%;
+    margin-top: 2%;
+    background-color: white;
+}
+.sociaux ul {
+    list-style-type: none;
+}
 /* FIN HEADER */
 /*
  * Remove text-shadow in selection highlight:
