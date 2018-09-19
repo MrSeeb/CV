@@ -101,7 +101,9 @@ h2{
     text-align: center;
     color: white;
 }
-
+.experiences p{
+    text-align: center;
+}
 .experiences{
     border: 5px double #000;
     width: 25%;
@@ -130,7 +132,9 @@ h2{
 .formations ul {
     list-style-type: none;
 }
-
+.formations p{
+    text-align: center;
+}
 /* FIN SECTION FORMATIONS */
 
 /* SECTION INTERETS */
