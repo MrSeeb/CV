@@ -92,6 +92,14 @@ header{
 .sociaux ul {
     list-style-type: none;
 }
+
+#name{
+    float: left;
+}
+
+.navbar{
+    float: right;
+}
 /* FIN HEADER */
 
 /* SECTION EXPERIENCES */
@@ -104,14 +112,19 @@ section{
 h3,h4{
     text-align: center;
 }
+header h2{
+    margin: 0;
+    text-align: center;
+    color:white;
+}
 h2{
     text-align: center;
     color: white;
 }
-.experiences p{
+article.experiences p{
     text-align: center;
 }
-.experiences{
+article.experiences{
     border: 5px double #000;
     width: 25%;
     float: left;
@@ -119,7 +132,7 @@ h2{
     margin-top: -1%;
     background-color: white;
 }
-.experiences ul {
+article.experiences ul {
     list-style-type: none;
 }
 
@@ -127,7 +140,7 @@ h2{
 
 /* SECTION FORMATIONS */
 
-.formations{
+article.formations{
     border: 5px double #000;
     width: 25%;
     float: left;
@@ -136,17 +149,17 @@ h2{
     background-color: white;
 }
 
-.formations ul {
+article.formations ul {
     list-style-type: none;
 }
-.formations p{
+article.formations p{
     text-align: center;
 }
 /* FIN SECTION FORMATIONS */
 
 /* SECTION INTERETS */
 
-.interets{
+article.interets{
     border: 5px double #000;
     width: 40%;
     float: left;
@@ -155,7 +168,7 @@ h2{
     background-color: white;
 }
 
-.interets ul {
+article.interets ul {
     list-style-type: none;
 }
 
